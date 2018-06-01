@@ -1,0 +1,122 @@
+body {
+    margin-top: 20px;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f4f4f4 url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png");
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.chats {
+    display: block;
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+.chats > .me {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.chats > .them {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.chat-message {
+    display: block;
+    font-size: 1.5rem;
+    color: #FF9800;
+    text-shadow: 2px 2px 3px #000000;
+    padding: 1rem 1.5rem;
+    margin: 0 0 1rem;
+    border-radius: 1rem;
+    max-width: 75vw;
+    clear: both;
+}
+
+.chat-message > div:before {
+    content: ". ";
+}
+
+.them > .chat-message {
+    background-color: #ffffff;
+}
+
+.me > .chat-message {
+    background-color: #E6FFCF;
+}
+
+.sylvester:before {
+    display: inline-block;
+    content: "";
+    height: 80px;
+    width: 80px;
+    margin-left: -40px;
+    margin-top: -30px;
+}
+
+.sylvester-1:before {
+    background: url("sylvester1.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.sylvester-2:before {
+    background: url("sylvester2.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.sylvester-3:before {
+    background: url("sylvester3.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.sylvester-4:before {
+    background: url("sylvester4.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.sylvester-5:before {
+    background: url("sylvester5.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.tweety:after {
+    display: inline-block;
+    content: "";
+    height: 80px;
+    width: 80px;
+    float: right;
+    margin-right: -40px;
+    margin-bottom: -30px;
+}
+
+.tweety-1:after {
+    background: url("tweety1.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.tweety-2:after {
+    background: url("tweety2.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.tweety-3:after {
+    background: url("tweety3.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.tweety-4:after {
+    background: url("tweety4.png") no-repeat 0 0;
+    background-size: contain;
+}
+
+.tweety-5:after {
+    background: url("tweety5.png") no-repeat 0 0;
+    background-size: contain;
+}
